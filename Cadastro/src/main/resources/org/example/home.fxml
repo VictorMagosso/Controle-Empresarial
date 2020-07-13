@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="616.0" prefWidth="739.0" spacing="20.0" style="-fx-background-color: #555;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HomeController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="606.0" prefWidth="713.0" VBox.vgrow="SOMETIMES">
+         <children>
+            <Label layoutX="255.0" layoutY="16.0" text="O que você deseja fazer?" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="276.0" layoutY="-15.0" prefHeight="31.0" prefWidth="137.0" text="Bem-vindo!" textAlignment="CENTER" textFill="#dddddd">
+               <font>
+                  <Font name="Calibri" size="27.0" />
+               </font>
+            </Label>
+            <Button fx:id="clientButton" contentDisplay="TOP" layoutX="35.0" layoutY="52.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Cadastrar Cliente">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@novocliente.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton1" contentDisplay="TOP" layoutX="235.0" layoutY="52.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Cadastrar Produto">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@novoproduto.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton11" contentDisplay="TOP" layoutX="434.0" layoutY="52.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Cadastrar Fornecedor">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@novofornecedor.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton2" contentDisplay="TOP" layoutX="35.0" layoutY="182.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Meus Clientes">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@listaclientes.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton21" contentDisplay="TOP" layoutX="235.0" layoutY="182.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Meus Produtos">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@listaprodutos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton211" contentDisplay="TOP" layoutX="434.0" layoutY="182.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Meus Fornecedores">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@listafornecedores.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton22" contentDisplay="TOP" layoutX="35.0" layoutY="312.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Novo pedido">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@novopedido.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton221" contentDisplay="TOP" layoutX="235.0" layoutY="312.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Meus pedidos">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@listapedidos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton2211" contentDisplay="RIGHT" layoutX="535.0" layoutY="501.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="31.0" prefWidth="104.0" text="Sair">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@sair.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="clientButton2212" contentDisplay="TOP" layoutX="434.0" layoutY="312.0" mnemonicParsing="false" onAction="#switchToClient" prefHeight="130.0" prefWidth="201.0" text="Balanço">
+               <font>
+                  <Font name="Calibri Light" size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@money.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
