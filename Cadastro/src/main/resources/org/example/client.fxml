@@ -22,12 +22,12 @@
             </Label>
             <Label layoutX="14.0" layoutY="63.0" text="Nome / Razão Social" textFill="#222020" />
             <TextField fx:id="nomeCliente" layoutX="136.0" layoutY="59.0" prefHeight="25.0" prefWidth="325.0" />
-            <TextField fx:id="enderecoCliente"  layoutX="136.0" layoutY="98.0" prefHeight="25.0" prefWidth="325.0" />
+            <TextField fx:id="enderecoCliente" layoutX="136.0" layoutY="98.0" prefHeight="25.0" prefWidth="325.0" />
             <Label layoutX="14.0" layoutY="102.0" text="Endereço" textFill="#222020" />
             <Label layoutX="14.0" layoutY="145.0" text="Telefone" textFill="#222020" />
             <TextField fx:id="telCliente" layoutX="136.0" layoutY="141.0" prefHeight="25.0" prefWidth="325.0" />
             <Label layoutX="13.0" layoutY="194.0" text="Observações" textFill="#222020" />
-            <TextArea fx:id="obsCliente"  layoutX="136.0" layoutY="194.0" prefHeight="108.0" prefWidth="325.0" />
+            <TextArea fx:id="obsCliente" layoutX="136.0" layoutY="194.0" prefHeight="108.0" prefWidth="325.0" />
               <Button fx:id="secondaryButton" contentDisplay="TOP" layoutX="308.0" layoutY="312.0" onAction="#switchToHome" prefHeight="80.0" prefWidth="153.0" text="Voltar">
                <graphic>
                   <ImageView fitHeight="41.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
@@ -49,6 +49,7 @@
                   <Image url="@user.png" />
                </image>
             </ImageView>
+            <Label fx:id="msgErro" layoutX="240.0" layoutY="20.0" textFill="#d30000" />
          </children>
       </AnchorPane>
     </children>
